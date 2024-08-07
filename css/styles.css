@@ -179,7 +179,6 @@ header .container {
 
 /* SECOND SECTION */
 .visually-hidden {
-    .visually-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
@@ -308,8 +307,7 @@ header .container {
 
 .footer {
     background-color: #2e2f42; 
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 .accent {
     color: #f4f4fd;
@@ -329,7 +327,7 @@ header .container {
     color: #2e2f42;
 }
 
-.logo-footer {
+a .logo-footer {
     display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -339,8 +337,7 @@ header .container {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-top: 100px;
-    margin-bottom: 16px;
     margin-left: 156px;
+    margin-bottom: 16px;
     
-
 }
