@@ -206,15 +206,16 @@ header {
 
 /* SECOND SECTION */
 .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        border: 0;
-        white-space: nowrap;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .third-header {
@@ -235,9 +236,11 @@ header {
     color: #434455;
     text-align: left;
 }
-.item-feature { 
-    width: calc((100% - 72px) / 4);
+
+.third-header-features {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .features {
     display: flex;
     gap: 24px;
@@ -304,10 +307,11 @@ header {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 48px;
+    column-gap: 24px;
+    row-gap: 48px;
     
 }
-.fourth-section-list {
+.fourth-section-list:first-child {
     background-color: #FFFFFF; 
     width: calc((100% - 48px) / 3); 
 }
