@@ -179,9 +179,16 @@ header .container {
 
 /* SECOND SECTION */
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
-
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+        white-space: nowrap;
 }
 
 .third-header {
@@ -231,7 +238,8 @@ header .container {
 }
 
 .team-list:first-child {
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .our-team > li > p{
