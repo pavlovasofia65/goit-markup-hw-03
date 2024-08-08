@@ -137,6 +137,7 @@ header .container {
 .menu {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 24px 0;
 }
 
 .address-list  {
