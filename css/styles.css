@@ -302,6 +302,10 @@ header {
 .second-header-team {
     align-self: start;
 }
+
+.team-container {
+    display: block;
+}
 /* FOURTH SECTION */
 
 .portfolio {
@@ -309,9 +313,8 @@ header {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
 }
-.fourth-section-list:first-child {
+.fourth-section-list {
     background-color: #FFFFFF; 
     width: calc((100% - 48px) / 3); 
 }
@@ -361,7 +364,9 @@ header {
 .accent-header {
     color: #2e2f42;
 }
-
+.footer a {
+    display: inline-block;  
+}
 .logo-footer {
     display: inline-block;
     font-family: "Raleway", sans-serif;
