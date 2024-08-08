@@ -365,9 +365,7 @@ header {
 .accent-header {
     color: #2e2f42;
 }
-.footer a {
-    display: inline-block;  
-}
+
 .logo-footer {
     display: inline-block;
     font-family: "Raleway", sans-serif;
