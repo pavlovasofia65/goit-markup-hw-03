@@ -243,7 +243,7 @@ header {
 }
 
 .third-header-features {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features {
