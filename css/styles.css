@@ -326,7 +326,8 @@ header {
     color: #434455;
     text-align: center;
 }
-.portfolio .container {
+.portfolio-container {
+    display: block;
     gap: 24px;
     flex-wrap: wrap;
     margin-top: 72px;
@@ -339,7 +340,7 @@ header {
 }
 
 #fourth .second-header {
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 /* FOOTER */
