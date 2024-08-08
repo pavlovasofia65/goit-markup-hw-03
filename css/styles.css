@@ -381,4 +381,5 @@ header {
 
 .footer-container {
     flex-direction: column;
+    display: block;
 }
